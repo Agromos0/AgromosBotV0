@@ -7,7 +7,7 @@ import { xpRange } from '../lib/levelling.js'
 let tags = {
   'main': 'ACERCA DE',
   'game': 'JUEGOS',
-  'econ': 'NIVEL & ECONOMIA',
+  'econ': 'Ganar-Dinero-Real',
   'rg': 'REGISTRO',
   'sticker': 'STICKER',
   'img': 'IMAGEN',
@@ -28,23 +28,24 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *Toxic-Bot-Device  ┃ ᴮᴼᵀ* ◈
  
 👋🏻 _Hola_ *%name*
 🧿 Nivel : *%level* 
 👥 Usuarios : %totalreg
 📈 Tiempo activo : %muptime
 ─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+▢ Creador del bot: Angel Pantoja
+• numero  del creador:+523931806576
+▢ Numero del bot oficial*
+• +12177294084
 ─────────────
 %readmore
 Ⓟ = Premium
 ⓓ = Diamantes
+□ = Ganar Dinero real
 -----  -----  -----  -----  -----
-  ≡ *LISTA DE MENUS*
+  ≡ *LISTA DE comandos*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
